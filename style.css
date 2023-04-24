@@ -265,3 +265,19 @@ footer {
 .date {
     font-size: 1.6rem;
 }
+.download-button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.download-button:hover {
+  background-color: #0077B5;
+}
