@@ -12,7 +12,7 @@ h2 {
 h3 {
     color: #838383;
     font-weight: 300;
-    font-size: 00.875rem;
+    font-size: 0.875rem;
 }
 
 .hiring {
@@ -30,8 +30,13 @@ h3 {
     background-color: #ffffff;
 }
 
+.nox-home {
+    background-color: #23221F;
+}
+    
+
 .slogan-tag {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Source Code Pro', monospace;
     color: #939393;
     font-size: 1.25rem;
     letter-spacing: .3rem;
@@ -222,7 +227,7 @@ footer {
 .my-nav-link ,.fab {
     text-decoration: none;
     color: #838383;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
 }
 
 .my-nav-link:hover ,.fab:hover{
@@ -242,4 +247,21 @@ footer {
 .form-label {
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+.date-finder button {
+    background-color: rgb(28, 28, 28);
+    padding: 16px 30px;
+    color: white;
+}
+
+.date-finder button:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(29, 29, 29);
+    transition-duration: .5s;
+    color: rgb(37, 37, 37);
+}
+
+.date {
+    font-size: 1.6rem;
 }
